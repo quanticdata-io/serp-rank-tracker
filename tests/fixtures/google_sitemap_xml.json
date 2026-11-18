@@ -1,0 +1,378 @@
+{
+  "type": "response",
+  "message": "SERP successful",
+  "payload": {
+    "search_metadata": {
+      "status": "Success",
+      "engine": "google",
+      "search_url": "https://www.google.com/search?q=what%20is%20a%20sitemap%20xml&gl=us&hl=en&uule=w+CAIQICIfTmV3IFlvcmssTmV3IFlvcmssVW5pdGVkIFN0YXRlcw",
+      "created_at": "2026-11-18T13:45:23.681Z",
+      "total_time_taken": 4.24,
+      "attempts": 2,
+      "bytes": 184823,
+      "path": "http",
+      "served_device": "desktop",
+      "served_platform": "desktop",
+      "served_browser": "edge",
+      "paging": {
+        "requested_num": 20,
+        "page_size": 10,
+        "pages_planned": 2,
+        "pages_fetched": 2,
+        "results_merged": 17
+      },
+      "from_cache": true
+    },
+    "retries": [
+      {
+        "attempt": 1,
+        "tier": "http",
+        "outcome": "ok",
+        "time_taken": 4.23,
+        "page": 1
+      },
+      {
+        "attempt": 2,
+        "tier": "http",
+        "outcome": "ok",
+        "time_taken": 4.15,
+        "page": 2
+      }
+    ],
+    "search_parameters": {
+      "engine": "google",
+      "q": "what is a sitemap xml",
+      "search_type": "search",
+      "device": "desktop",
+      "country": "us",
+      "language": "en",
+      "page": 1
+    },
+    "general": {
+      "engine": "google",
+      "search_type": "search",
+      "query": "what is a sitemap xml",
+      "search_url": "https://www.google.com/search?q=what%20is%20a%20sitemap%20xml&gl=us&hl=en&uule=w+CAIQICIfTmV3IFlvcmssTmV3IFlvcmssVW5pdGVkIFN0YXRlcw",
+      "results_cnt": null,
+      "page": 1,
+      "device": "desktop",
+      "language": "en",
+      "country": "us"
+    },
+    "organic": [
+      {
+        "rank": 1,
+        "title": "What is an XML sitemap and why should you have one? - Yoast",
+        "link": "https://www.google.com/url?q=redacted-1&sa=U",
+        "redirect_link": "https://www.google.com/url?q=redacted-2&sa=U",
+        "display_link": "yoast.com › SEO blog › Technical SEO",
+        "source": null,
+        "description": "Why do you need an XML...",
+        "date": "Mar 11, 2026",
+        "snippet_highlighted_words": [],
+        "sitelinks": [
+          {
+            "title": "What are XML sitemaps?",
+            "link": "https://www.google.com/url?q=redacted-3&sa=U"
+          },
+          {
+            "title": "Why do you need an XML...",
+            "link": "https://www.google.com/url?q=redacted-4&sa=U"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "title": "An introduction to XML sitemaps - Digital.gov",
+        "link": "https://www.google.com/url?q=redacted-5&sa=U",
+        "redirect_link": "https://www.google.com/url?q=redacted-6&sa=U",
+        "display_link": "digital.gov › resources › introduction-xml-sitemaps",
+        "source": null,
+        "description": "What is an XML sitemap? An XML sitemap is a XML file that lists the URLs on a website. Search engines use XML sitemaps as a roadmap to efficiently discover, ...",
+        "date": null,
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 3,
+        "title": "Free Online Sitemap Generator | XML Sitemaps for Google and Bing",
+        "link": "https://www.xml-sitemaps.com/",
+        "redirect_link": "https://www.google.com/url?q=redacted-7&sa=U",
+        "display_link": "www.xml-sitemaps.com",
+        "source": "xml-sitemaps.com",
+        "description": "A sitemap is a way of organizing a website, identifying the URLs and the data under each section. Previously, the sitemaps were primarily geared for the users ...",
+        "date": null,
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 4,
+        "title": "XML Sitemaps: What They Are, Why They Matter, How To ... - YouTube",
+        "link": "https://www.google.com/url?q=redacted-8&sa=U",
+        "redirect_link": "https://www.google.com/url?q=redacted-9&sa=U",
+        "display_link": "www.youtube.com › watch",
+        "source": null,
+        "description": "XML Sitemaps are a critical tool for any site owner that wants to rank. These files help search engines to better understand what pages you ...",
+        "date": "Dec 6, 2021",
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 5,
+        "title": "Sitemaps - Wikipedia",
+        "link": "https://www.google.com/url?q=redacted-10&sa=U",
+        "redirect_link": "https://www.google.com/url?q=redacted-11&sa=U",
+        "display_link": "en.wikipedia.org › wiki › Sitemaps",
+        "source": null,
+        "description": "Sitemaps is a protocol in XML format meant for a webmaster to inform search engines about URLs on a website that are available for web crawling.",
+        "date": null,
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 6,
+        "title": "What is a Sitemap: Everything You Need to Know (And More)",
+        "link": "https://octopus.do/sitemap/blog/what-is-a-sitemap-everthing-you-need-to-know-and-more",
+        "redirect_link": "https://www.google.com/url?q=redacted-12&sa=U",
+        "display_link": "octopus.do › sitemap › blog › what-is-a-sitemap-everthing-you-need-to-kn...",
+        "source": "octopus.do",
+        "description": "An XML sitemap acts as a set of instructions for search engines, specifying which pages you want crawled and indexed. These instructions are ...",
+        "date": "Nov 27, 2024",
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 7,
+        "title": "What is an XML Sitemap and why is it important for SEO - Webnode",
+        "link": "https://www.google.com/url?q=redacted-13&sa=U",
+        "redirect_link": "https://www.google.com/url?q=redacted-14&sa=U",
+        "display_link": "www.webnode.com › blog › quick-tip-why-a-site-map-is-a-must",
+        "source": null,
+        "description": "In general, a sitemap is a special document that lists all the pages available on your website. XML sitemaps were created for search engines to ...",
+        "date": "Jul 31, 2021",
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 8,
+        "title": "What is an XML Sitemap and why is it important for SEO - Webnode",
+        "link": "https://www.google.com/url?q=redacted-15&sa=U",
+        "redirect_link": "https://www.google.com/url?q=redacted-16&sa=U",
+        "display_link": "www.webnode.com › blog › quick-tip-why-a-site-map-is-a-must",
+        "source": null,
+        "description": "In general, a sitemap is a special document that lists all the pages available on your website. XML sitemaps were created for search engines to ...",
+        "date": "Jul 31, 2021",
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 9,
+        "title": "What is an XML Sitemap? - WooRank",
+        "link": "https://www.woorank.com/en/edu/seo-guides/xml-sitemaps",
+        "redirect_link": "https://www.google.com/url?q=redacted-17&sa=U",
+        "display_link": "www.woorank.com › edu › seo-guides › xml-sitemaps",
+        "source": "woorank.com",
+        "description": "An XML (Extensible Markup Language) Sitemap is a text file used to detail all URLs on a website. It can include extra information (metadata) on each URL, with ...",
+        "date": null,
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 10,
+        "title": "Sitemap: What Is It & Why Your Website Needs One - Backlinko",
+        "link": "https://www.google.com/url?q=redacted-18&sa=U",
+        "redirect_link": "https://www.google.com/url?q=redacted-19&sa=U",
+        "display_link": "backlinko.com › hub › seo › sitemaps",
+        "source": null,
+        "description": "A sitemap is a blueprint of your website that help search engines find, crawl and index all of your website's content.",
+        "date": "Apr 14, 2025",
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 11,
+        "title": "What Is a Sitemap? A Complete Guide to Creating and Submitting One",
+        "link": "https://www.google.com/url?q=redacted-20&sa=U",
+        "redirect_link": "https://www.google.com/url?q=redacted-21&sa=U",
+        "display_link": "elementor.com › Blog › Resources",
+        "source": null,
+        "description": "A sitemap is an XML file that lists all important URLs on your website. It acts as a map to help search engines find, crawl, and index your ...",
+        "date": "Nov 17, 2025",
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 12,
+        "title": "Understanding XML Sitemaps - BrightEdge",
+        "link": "https://www.google.com/url?q=redacted-22&sa=U",
+        "redirect_link": "https://www.google.com/url?q=redacted-23&sa=U",
+        "display_link": "www.brightedge.com › blog › understanding-xml-sitemaps",
+        "source": null,
+        "description": "In its simplest form, a sitemap serves as a road map for search engines to discover your website's most important content and get further context on your ...",
+        "date": null,
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 13,
+        "title": "How to Create & Submit an XML Sitemap for Better SEO Results",
+        "link": "https://www.google.com/url?q=redacted-24&sa=U",
+        "redirect_link": "https://www.google.com/url?q=redacted-25&sa=U",
+        "display_link": "www.youtube.com › watch",
+        "source": null,
+        "description": "Learn how to create and submit an XML sitemap to boost your SEO rankings. Join our Skool community for quick wins & expert SEO tips to ...",
+        "date": "May 19, 2025",
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 14,
+        "title": "Sitemap.xml: What is it? Types, formats, and how to create one",
+        "link": "https://nonadigitalmarketing.com/blog/sitemap-xml/",
+        "redirect_link": "https://www.google.com/url?q=redacted-26&sa=U",
+        "display_link": "nonadigitalmarketing.com › blog › sitemap-xml",
+        "source": "nonadigitalmarketing.com",
+        "description": "An XML sitemap is a file that lists all the important pages on your website and tells search engines like Google where to find them.",
+        "date": "May 14, 2026",
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 15,
+        "title": "XML sitemap (sitemap.xml) – Definition | Webflow Glossary",
+        "link": "https://www.google.com/url?q=redacted-27&sa=U",
+        "redirect_link": "https://www.google.com/url?q=redacted-28&sa=U",
+        "display_link": "university.webflow.com › glossary › sitemapxml",
+        "source": null,
+        "description": "An XML sitemap (sitemap.xml) is a file that lists every page on your site so search engines can find and crawl them more efficiently.",
+        "date": null,
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 16,
+        "title": "What is a Sitemap and why it is important? | by aliatalaycebeci",
+        "link": "https://www.google.com/url?q=redacted-29&sa=U",
+        "redirect_link": "https://www.google.com/url?q=redacted-30&sa=U",
+        "display_link": "medium.com › what-is-a-sitemap-and-why-it-is-important-43439a385e85",
+        "source": null,
+        "description": "A sitemap is a file that contains a list of all pages (URLs) and files on a website. It serves as a road map for search engines to collect ...",
+        "date": "Jan 14, 2024",
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      },
+      {
+        "rank": 17,
+        "title": "XML Sitemap: the ultimate reference guide - Conductor",
+        "link": "https://www.google.com/url?q=redacted-31&sa=U",
+        "redirect_link": "https://www.google.com/url?q=redacted-32&sa=U",
+        "display_link": "www.conductor.com › Academy › SEO Fundamentals",
+        "source": null,
+        "description": "An XML Sitemap is a special document which lists all pages on a website to provide search engines with an overview of all the available ...",
+        "date": "Jul 8, 2026",
+        "snippet_highlighted_words": [],
+        "sitelinks": []
+      }
+    ],
+    "ads": [],
+    "shopping": [],
+    "images": [],
+    "news": [],
+    "places": [],
+    "scholar": [],
+    "jobs_results": [],
+    "suggestions": [],
+    "place_results": null,
+    "properties": [],
+    "flights_results": [],
+    "events_results": [],
+    "product_results": null,
+    "visual_matches": [],
+    "reviews_results": [],
+    "inline_videos": [],
+    "immersive_products": [],
+    "perspectives": [],
+    "related": [
+      "What is a sitemap xml used for",
+      "What is a sitemap xml example",
+      "Sitemap generator",
+      "What is a sitemap xml and how does it work",
+      "Sitemap example",
+      "Sitemap checker",
+      "Google sitemap",
+      "HTML sitemap"
+    ],
+    "related_searches": [
+      {
+        "query": "What is a sitemap xml used for",
+        "link": null
+      },
+      {
+        "query": "What is a sitemap xml example",
+        "link": null
+      },
+      {
+        "query": "Sitemap generator",
+        "link": null
+      },
+      {
+        "query": "What is a sitemap xml and how does it work",
+        "link": null
+      },
+      {
+        "query": "Sitemap example",
+        "link": null
+      },
+      {
+        "query": "Sitemap checker",
+        "link": null
+      },
+      {
+        "query": "Google sitemap",
+        "link": null
+      },
+      {
+        "query": "HTML sitemap",
+        "link": null
+      }
+    ],
+    "refine_this_search": [],
+    "refine_search_filters": [],
+    "things_to_know": [],
+    "people_also_ask": [],
+    "related_questions": [],
+    "knowledge": null,
+    "knowledge_graph": null,
+    "featured_snippet": null,
+    "ai_overview": "An XML sitemap is a structured text file written in Extensible Markup Language (XML) that lists the important URLs of a website, acting like a roadmap or table of contents specifically for search engines like Google and Bing.",
+    "ai_overview_references": [],
+    "answer_box": null,
+    "weather": null,
+    "flights": null,
+    "currency": null,
+    "trends": null,
+    "trending": null,
+    "pagination": {
+      "current": 1,
+      "next": null,
+      "total_pages": null,
+      "other_pages": {},
+      "available_pages": [
+        1,
+        2
+      ],
+      "has_next": false
+    }
+  },
+  "pagination": {
+    "current": 1,
+    "next": null,
+    "total_pages": null,
+    "other_pages": {},
+    "available_pages": [
+      1,
+      2
+    ],
+    "has_next": false
+  }
+}
