@@ -1,0 +1,163 @@
+{
+  "type": "response",
+  "message": "SERP successful",
+  "payload": {
+    "search_metadata": {
+      "status": "Success",
+      "engine": "bing",
+      "search_url": "https://www.bing.com/search?q=python%20http%20client%20library&form=QBLH&cc=us&setlang=en",
+      "created_at": "2026-11-18T13:46:35.906Z",
+      "total_time_taken": 4.64,
+      "attempts": 2,
+      "bytes": 603347,
+      "path": "http",
+      "served_device": "mobile"
+    },
+    "retries": [
+      {
+        "attempt": 1,
+        "outcome": "blocked",
+        "reason": "bing-decoy",
+        "time_taken": 1.46,
+        "tier": "http"
+      },
+      {
+        "attempt": 2,
+        "outcome": "ok",
+        "time_taken": 3.18,
+        "tier": "http",
+        "client": "mobile"
+      }
+    ],
+    "search_parameters": {
+      "engine": "bing",
+      "q": "python http client library",
+      "search_type": "search",
+      "device": "desktop",
+      "country": "us",
+      "language": "en",
+      "page": 1
+    },
+    "general": {
+      "engine": "bing",
+      "search_type": "search",
+      "query": "python http client library",
+      "search_url": "https://www.bing.com/search?q=python%20http%20client%20library&form=QBLH&cc=us&setlang=en",
+      "results_cnt": null,
+      "page": 1,
+      "device": "desktop",
+      "language": "en",
+      "country": "us"
+    },
+    "organic": [
+      {
+        "rank": 1,
+        "title": "http.client — HTTP protocol client — Python 3.15.2 documentation",
+        "link": "https://docs.python.org/3/library/http.client.html",
+        "display_link": "https://docs.python.org › library › http.client.html",
+        "source": "docs.python.org",
+        "description": "This module defines classes that implement the client side of the HTTP and HTTPS protocols. It is normally not …",
+        "date": "13 hours ago",
+        "sitelinks": [
+          {
+            "title": "Ftplib",
+            "link": "https://docs.python.org/3/library/ftplib.html"
+          },
+          {
+            "title": "Found a Bug",
+            "link": "https://docs.python.org/3/bugs.html"
+          },
+          {
+            "title": "History and License",
+            "link": "https://docs.python.org/3/license.html"
+          },
+          {
+            "title": "Server",
+            "link": "https://docs.python.org/3/library/http.server.html"
+          },
+          {
+            "title": "Internet Protocols and Support",
+            "link": "https://docs.python.org/3/library/internet.html"
+          },
+          {
+            "title": "Urllib.Request",
+            "link": "https://docs.python.org/3/library/urllib.request.html"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "title": "http — HTTP modules — Python 3.15.2 documentation",
+        "link": "https://docs.python.org/3/library/http.html",
+        "display_link": "https://docs.python.org › library › http.html",
+        "source": "docs.python.org",
+        "description": "http is a package that collects several modules for working with the HyperText Transfer Protocol: http.client is a low …"
+      },
+      {
+        "rank": 3,
+        "title": "httpx · PyPI",
+        "link": "https://pypi.org/project/httpx/",
+        "display_link": "https://pypi.org › project › httpx",
+        "source": "pypi.org",
+        "description": "HTTPX is a fully featured HTTP client library for Python 3. It includes an integrated command line client, has …",
+        "date": "Dec 6, 2024"
+      }
+    ],
+    "ads": [],
+    "shopping": [],
+    "images": [],
+    "news": [],
+    "places": [],
+    "scholar": [],
+    "jobs_results": [],
+    "suggestions": [],
+    "place_results": null,
+    "properties": [],
+    "flights_results": [],
+    "events_results": [],
+    "product_results": null,
+    "visual_matches": [],
+    "reviews_results": [],
+    "inline_videos": [],
+    "immersive_products": [],
+    "perspectives": [],
+    "related": [],
+    "related_searches": [],
+    "refine_this_search": [],
+    "refine_search_filters": [],
+    "things_to_know": [],
+    "people_also_ask": [],
+    "related_questions": [],
+    "knowledge": null,
+    "knowledge_graph": null,
+    "featured_snippet": null,
+    "ai_overview": null,
+    "ai_overview_references": [],
+    "answer_box": null,
+    "weather": null,
+    "flights": null,
+    "currency": null,
+    "trends": null,
+    "trending": null,
+    "pagination": {
+      "current": 1,
+      "next": null,
+      "total_pages": null,
+      "other_pages": {},
+      "available_pages": [
+        1
+      ],
+      "has_next": false
+    }
+  },
+  "pagination": {
+    "current": 1,
+    "next": null,
+    "total_pages": null,
+    "other_pages": {},
+    "available_pages": [
+      1
+    ],
+    "has_next": false
+  }
+}

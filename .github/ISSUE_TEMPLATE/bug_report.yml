@@ -1,0 +1,28 @@
+name: Bug report
+description: A wrong position, a missing field, or a crash
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Never paste an API key. Replace it with qd_live_...
+  - type: input
+    id: version
+    attributes:
+      label: Version, Python and OS
+      placeholder: serp-rank 0.1.0, Python 3.12, Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command you ran
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened and what you expected
+      description: If a position looks wrong, attach the row from serp-rank export -f json for that check.
+    validations:
+      required: true

@@ -1,0 +1,35 @@
+{
+  "_comment": "Synthetic. Shapes follow the documented /scraper/serp payload; the items of ai_overview_references and people_also_ask are untyped objects in the OpenAPI file, so this fixture uses link/source/title keys. All domains are fictional.",
+  "type": "response",
+  "message": "SERP successful",
+  "payload": {
+    "search_metadata": {
+      "status": "Success",
+      "engine": "google",
+      "search_url": "https://www.google.com/search?q=best+burr+grinder&gl=us&hl=en",
+      "created_at": "2026-11-18T10:00:00.000Z",
+      "path": "http",
+      "from_cache": false
+    },
+    "search_parameters": {"engine": "google", "q": "best burr grinder", "search_type": "search", "device": "desktop", "country": "us", "language": "en", "page": 1},
+    "organic": [
+      {"rank": 1, "title": "Burr grinders compared", "link": "https://www.google.com/url?q=redacted-1&sa=U", "display_link": "coffee-lab.example › reviews", "description": "Six grinders tested."},
+      {"rank": 2, "title": "How to choose a burr grinder", "link": "https://blog.example.com/grinders", "display_link": "blog.example.com › grinders", "source": "blog.example.com", "description": "A buyer's guide."},
+      {"rank": 3, "title": "Grinder FAQ", "link": "https://www.google.com/url?q=redacted-2&sa=U", "display_link": "www.example.com › faq › grinders", "description": "Answers."},
+      {"rank": 4, "title": "Espresso forum thread", "link": "https://forum.example.org/t/grinders", "display_link": "forum.example.org › t", "source": "example.org", "description": "Discussion."}
+    ],
+    "ads": [],
+    "people_also_ask": [{"question": "Is a burr grinder worth it?"}, {"question": "Conical or flat burrs?"}],
+    "related_questions": [],
+    "related_searches": [{"query": "best burr grinder under 100"}],
+    "featured_snippet": {"title": "How to choose a burr grinder", "link": "https://blog.example.com/grinders", "snippet": "Pick burrs first."},
+    "ai_overview": "A burr grinder crushes beans between two burrs for an even grind.",
+    "ai_overview_references": [
+      {"title": "Burr grinders compared", "link": "https://coffee-lab.example/reviews", "source": "coffee-lab.example"},
+      {"title": "Grinder FAQ", "link": "https://www.example.com/faq/grinders"}
+    ],
+    "knowledge_graph": null,
+    "pagination": {"current": 1, "next": 2, "total_pages": null, "other_pages": {}, "available_pages": [1, 2], "has_next": true}
+  },
+  "pagination": {"current": 1, "next": 2, "total_pages": null, "available_pages": [1, 2], "has_next": true}
+}

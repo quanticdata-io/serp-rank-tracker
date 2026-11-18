@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: QuanticData API reference
+    url: https://quanticdata.io/docs/
+    about: SERP parameters, errors and limits. Account questions go to hello@quanticdata.io.
+  - name: Security report
+    url: https://github.com/quanticdata-io/serp-rank-tracker/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately.
